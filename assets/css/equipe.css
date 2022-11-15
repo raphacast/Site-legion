@@ -1,0 +1,58 @@
+.title h2::after{ /* LINE */
+  content: "";
+  display: block;
+  background-color: #FFB300;
+  width: 150px;
+  height: 1px;
+  margin-left: 35px;
+}
+
+.section-equipe-body{ /* corpo para agrupar os cards */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{/* card com as informações  */
+  width: 560px;
+  height: 250px;
+  margin-top: 150px;
+  display: flex;
+}
+.image-equipe{ /* Imagem  */
+background-image: url(/assets/image/equipe/user.svg);
+background-position: center;
+background-size: cover;
+width: 250px;
+height: 100%;
+}
+.info-equipe{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  padding-left: 20px;
+}
+.info-equipe--info{
+  flex:1;
+  padding-left: 10px;
+}
+.info-equipe--info h3 {
+font-size: 45px;
+font-family: Righteous;
+font-weight: lighter;
+}
+.info-equipe--info h6{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFB300;
+}
+.info-equipe--info p{
+  font-family: sarala;
+  font-size: 19px;
+  width: 270px;
+}
+.info-equipe--social{
+  width: 80px;
+  display: flex;
+}

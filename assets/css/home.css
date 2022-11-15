@@ -1,0 +1,108 @@
+header {
+  
+  background-color: #161616;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 20px #8d8b8b5d;
+  /* box-shadow: rgba(110, 110, 110, 0.2) 0px 60px 40px -7px; */
+  /* box-shadow: rgba(7, 7, 7, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px */
+  /* box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px; */
+
+}
+
+
+
+.logo {
+  margin: auto 0px auto 0px;
+}
+
+.header-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+  font-size: 13px;
+  z-index: 999;
+
+}
+
+.menu a {
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+
+}
+
+.menu a:hover,
+.active {
+  border-bottom: 1px dashed #FFB300;
+}
+
+
+.social {
+  margin: auto 0px auto 0px;
+}
+
+.social img {
+  width: 200px;
+
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  flex-direction: column;
+  
+}
+
+.home-left {
+  background-image: url(/assets/image/home/teste.svg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+
+}
+
+.home-title {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.home-title h1 {
+  font-size: 71px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+  color: white;
+  font-family: Righteous;
+}
+
+.home-title h6 {
+  border-bottom: 1px solid #fff;
+  font-size: 19px;
+  font-family: Righteous;
+  color: #FFB300;
+  padding: 5px 0 5px 0;
+}
+
+.home-title h3 {
+  font-family: Righteous;
+  color: #fff;
+  padding-top: 35px;
+}
+
+.home-title p {
+  width: 450px;
+  font-size: 20px;
+  padding-top: 30px;
+  color: #fff;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+
+@import url(/assets/css/home.css);
+@import url(/assets/css/missao.css);
+@import url(/assets/css/servico.css);
+@import url(/assets/css/cliente.css);
+@import url(/assets/css/equipe.css);
+@import url(/assets/css/sobre-nos.css);
+@import url(/assets/css/rodape.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: sarala
+}
+
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto;
+  background: #1E1E1E;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+
+}
+
+h2 {
+  font-size: 50px;
+  font-family: bebas neue ;
+  padding-top: 65px;
+}
+section {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  height: 20em !important;
+}
+.title {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+  max-width: 1440px;
+  /* background-color: #FFB300; */
+}
+.dark{
+  background-color: #1E1E1E;
+  color: white;
+  height: auto;
+}
+.light{
+  background-color: #E5E5E5;
+  /* height: 100vh; */
+}
+.yellow {
+  color: #FFB300;
+}
