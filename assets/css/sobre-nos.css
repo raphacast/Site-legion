@@ -1,0 +1,11 @@
+.section-sobre-nos-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-sobre-nos-txt h2{
+  font-size: 70px;
+}
+.section-sobre-nos-txt p{
+  font-size: 30px;
+}

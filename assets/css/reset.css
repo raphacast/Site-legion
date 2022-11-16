@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
 
 @import url(/assets/css/home.css);
@@ -6,7 +7,7 @@
 @import url(/assets/css/cliente.css);
 @import url(/assets/css/equipe.css);
 @import url(/assets/css/sobre-nos.css);
-@import url(/assets/css/rodape.css);
+@import url(/assets/css/footer.css);
 
 * {
   box-sizing: border-box;
@@ -26,7 +27,7 @@ body {
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: #1E1E1E;
+  background: var(--color--white);
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
@@ -45,9 +46,6 @@ section {
   flex-direction: column;
 }
 
-footer {
-  height: 20em !important;
-}
 .title {
 display: flex;
 justify-content: center;
@@ -70,6 +68,6 @@ align-items: center;
   background-color: #E5E5E5;
   /* height: 100vh; */
 }
-.yellow {
-  color: #FFB300;
+.blue{
+  color: var(--color--blue);
 }

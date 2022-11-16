@@ -1,6 +1,11 @@
+:root {
+  --color--blue: #215BFF;
+  --color-black: #161616;
+  --color--white: #FAFAFA;
+}
 header {
   
-  background-color: #161616;
+  background-color: var(--color--blue);
   height: 100px;
   display: flex;
   justify-content: center;
@@ -28,7 +33,7 @@ header {
 }
 
 .menu a {
-  color: white;
+  color: var(--color--white);
   font-family: arial;
   font-weight: bold;
   margin-left: 10px;
@@ -39,7 +44,7 @@ header {
 
 .menu a:hover,
 .active {
-  border-bottom: 1px dashed #FFB300;
+  border-bottom: 3px dashed var(--color--white);
 }
 
 
@@ -51,7 +56,13 @@ header {
   width: 200px;
 
 }
-
+#home .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+}
 #home {
   display: flex;
   justify-content: center;
@@ -61,48 +72,45 @@ header {
   
 }
 
-.home-left {
-  background-image: url(/assets/image/home/teste.svg);
-  background-position: center;
-  background-size: cover;
-  height: 450px;
-  width: 450px;
-
-}
 
 .home-title {
+  padding-top: 60px;
   text-align: right;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+
 }
 
 .home-title h1 {
-  font-size: 71px;
-  border-bottom: 1px solid #fff;
+  font-size: 120px;
   padding-bottom: 15px;
-  color: white;
+  color: var(--color-black);
   font-family: Righteous;
 }
 
 .home-title h6 {
-  border-bottom: 1px solid #fff;
-  font-size: 19px;
+  font-size: 25px;
   font-family: Righteous;
-  color: #FFB300;
+  color: var(--color--blue);
   padding: 5px 0 5px 0;
+  letter-spacing: 2.3px;
+  line-height: 20px;
 }
-
-.home-title h3 {
-  font-family: Righteous;
-  color: #fff;
-  padding-top: 35px;
+/* .home-title h6::after{
+  content: "";
+  display: block;
+  background-image: url(/assets/image/home/seta.svg);
+  background-position: center;
+  background-size: cover;
+  width: 112px;
+  height: 112px;
+} */
+.seta{
+  padding-top: 100px;
 }
-
-.home-title p {
-  width: 450px;
-  font-size: 20px;
-  padding-top: 30px;
-  color: #fff;
+.seta img{
+  width: 90px;
+  height: 90px;
 }
