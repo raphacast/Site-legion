@@ -3,6 +3,7 @@
 
 @import url(/assets/css/home.css);
 @import url(/assets/css/missao.css);
+@import url(/assets/css/pilares.css);
 @import url(/assets/css/servico.css);
 @import url(/assets/css/cliente.css);
 @import url(/assets/css/equipe.css);
@@ -59,15 +60,6 @@ align-items: center;
   width: 1150px;
   max-width: 1440px;
   /* background-color: #FFB300; */
-}
-.dark{
-  background-color: #1E1E1E;
-  color: white;
-  height: auto;
-}
-.light{
-  background-color: #E5E5E5;
-  /* height: 100vh; */
 }
 .blue{
   color: var(--color--blue);

@@ -1,0 +1,47 @@
+.section-missao-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.section-missao-box{
+  display: flex;
+  flex-direction: row-reverse;
+  gap:30px;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cont-missao{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.cont-missao-right{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: end;
+}
+
+.cont-missao h3{
+  font-size: 50px;
+  color: #1E1E1E;
+}
+
+.cont-missao h4{
+  font-size: 35px;
+  color: var(--color--blue);
+}
+
+.cont-missao p{
+  font-size: 30px;
+}
+
+.img-missão img{
+  width: 600px;
+  height: 600px;
+}

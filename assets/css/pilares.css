@@ -1,0 +1,40 @@
+.azul{
+  color: var(--color--blue);
+}
+
+h2{
+  font-family: 'Righteous', cursive;
+}
+
+strong{
+  color: var(--color--blue);
+}
+.org-pilares{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+  gap: 65px;
+}
+
+.pilares{
+  font-family: 'Sarala', sans-serif;;
+  color: var(--color--white);
+  background: var(--color--blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  width: 225px;
+  height: 358px;
+}
+
+.pilares h1{
+  font-size: 30px;
+}
+
+.pilares p{
+  font-size: 15px;
+}
