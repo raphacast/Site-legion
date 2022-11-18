@@ -1,0 +1,48 @@
+#politica{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto{
+width: 970px;
+text-align: left;
+border: 3px solid var(--color--blue);
+padding: 0px 20px 20px 20px;
+border-radius: 20px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.texto h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--color--blue);
+  padding-top: 20px;
+  
+}
+.texto a{
+  color: var(--color--blue);
+  margin: 0;
+}
+.texto p{
+  font-size: 17px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #414c61;
+  
+}
+.texto ul{
+  width: 850px;
+  margin-left: 50px;
+}
+.texto li{
+  margin-bottom: 17px;
+  font-weight: bold;
+
+}
+.texto h3{
+  color: var(--color--blue);
+  font-weight: bold;
+  margin-bottom: 8px;
+}

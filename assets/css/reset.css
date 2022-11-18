@@ -12,6 +12,8 @@
 @import url(/assets/css/footer.css);
 @import url(/assets/css/mobile.css);
 
+
+@import url(/assets/css/politicadeprivacidade.css);
 * {
   box-sizing: border-box;
   margin: 0;

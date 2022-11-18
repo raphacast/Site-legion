@@ -106,6 +106,7 @@
     font-size: 25px;
   }
 }
+
 /* </br> */
 @media(min-width: 769px) and (max-width: 1024px) {
   .container {
@@ -250,26 +251,42 @@
   .slider--controls {
     width: 600px !important;
   }
+
+  .texto {
+    width: 700px !important;
+
+  }
+
+  .texto ul {
+    width: 600px !important;
+    margin-left: 50px;
+  }
 }
+
 /* </br> */
 @media(min-width: 481px) and (max-width: 768px) {
- 
-  nav{
+
+  nav {
     display: none;
   }
-    .logo img{
-width: 60px;
-    }
+
+  .logo img {
+    width: 60px;
+   
+  }
+
   .logo {
     width: 100%;
     display: flex;
-    padding-left: 15px;
+    justify-content: center;
 
-   
+
   }
-  .social{
+
+  .social {
     display: none;
   }
+
   .container {
     width: 380px !important;
   }
@@ -304,10 +321,11 @@ width: 60px;
     font-size: 35px !important;
   }
 
-    .section-missao-box{
-      flex-direction: column;
-      text-align: center;
-    }
+  .section-missao-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .cont-missao h4 {
     font-size: 20px;
   }
@@ -385,10 +403,11 @@ width: 60px;
   .section-sobre-nos-img img {
     width: 300px;
   }
-    .section-sobre-nos-body{
-      flex-direction: column-reverse;
-      text-align: center;
-    }
+
+  .section-sobre-nos-body {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 
   .section-contato--title {
     font-size: 23px;
@@ -397,8 +416,8 @@ width: 60px;
   button {
     width: 200px;
     padding: 10px;
-   margin-left: 10px;
-   margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .slider {
@@ -425,26 +444,49 @@ width: 60px;
   .slider--controls {
     width: 380px !important;
   }
-    .slider--control img{
-      width: 30px;
-      margin: 5px !important;
-    }
-    .cliente-txt p{
+
+  .slider--control img {
+    width: 30px;
+    margin: 5px !important;
+  }
+
+  .cliente-txt p {
     font-size: 15px;
     width: 300px;
+  }
+
+  .section-servico-body {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .service-box {
+    flex: 1;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  .texto {
+    width: 400px !important;
+
+  }
+
+  .texto ul {
+    width: 300px !important;
+    margin-left: 50px;
+    font-size: 12px;
+  }
+
+  .texto p {
+    font-size: 12px !important;
+  }
+    .texto h2{
+      font-size: 20px !important;
     }
-    .section-servico-body{
-      flex-wrap: wrap;
-      gap: 100px;
-    }
-        .service-box {
-          flex: 1;
-        }
-        
-        footer{
-          font-size: 12px;
-        }
 }
+
 /* </br> */
 @media(min-width: 320px) and (max-width: 480px) {
 
@@ -459,9 +501,7 @@ width: 60px;
   .logo {
     width: 100%;
     display: flex;
-    padding-left: 15px;
-
-
+    justify-content: center;
   }
 
   .social {
@@ -506,9 +546,11 @@ width: 60px;
     flex-direction: column;
     text-align: center;
   }
- .cont-missao h3{
-  font-size: 20px !important;
- }
+
+  .cont-missao h3 {
+    font-size: 20px !important;
+  }
+
   .cont-missao h4 {
     font-size: 15px;
   }
@@ -560,12 +602,13 @@ width: 60px;
     width: 80px !important;
     height: 80px;
     margin-top: 50px !important;
-    
+
   }
 
   .info-equipe {
     padding: 0 !important;
   }
+
   .info-equipe--info h3 {
     font-size: 20px !important;
   }
@@ -584,16 +627,18 @@ width: 60px;
   .info-equipe--social img {
     width: 30px;
     background-color: var(--color--blue);
-  
+
   }
-     .info-equipe--social img:first-child{
-      border-bottom-left-radius: 5px;
-      border-top-left-radius: 5px;
-     }
-            .info-equipe--social img:last-child {
-              border-bottom-right-radius: 5px;
-              border-top-right-radius: 5px;
-            }
+
+  .info-equipe--social img:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .info-equipe--social img:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
 
   .section-sobre-nos-txt h2 {
     font-size: 40px !important;
@@ -642,7 +687,7 @@ width: 60px;
   }
 
   .cliente-txt p {
-    width:230px !important;
+    width: 230px !important;
     font-size: 12px !important;
   }
 
@@ -655,9 +700,11 @@ width: 60px;
     width: 30px;
     margin: 5px !important;
   }
- .cliente-txt h1{
-  font-size: 15px !important;
- }
+
+  .cliente-txt h1 {
+    font-size: 15px !important;
+  }
+
   .cliente-txt p {
     font-size: 15px;
     width: 300px;
@@ -677,4 +724,22 @@ width: 60px;
     padding-left: 10px;
     padding-right: 10px;
   }
+     .texto {
+       width: 280px !important;
+  
+     }
+  
+     .texto ul {
+       width: 200px !important;
+       margin-left: 30px !important;
+       font-size: 12px;
+     }
+  
+     .texto p {
+       font-size: 12px !important;
+     }
+  
+     .texto h2 {
+       font-size: 20px !important;
+     }
 }
