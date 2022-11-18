@@ -39,10 +39,20 @@ margin-bottom: 70px;
 .texto li{
   margin-bottom: 17px;
   font-weight: bold;
+ 
 
 }
+
 .texto h3{
   color: var(--color--blue);
   font-weight: bold;
   margin-bottom: 8px;
+}
+#termos .texto li {
+  margin-left: 50px;
+  margin-bottom: 17px;
+    font-weight: bold;
+}
+#termos .texto p {
+  color: #414c61 !important;
 }

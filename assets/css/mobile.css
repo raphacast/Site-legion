@@ -272,7 +272,7 @@
 
   .logo img {
     width: 60px;
-   
+
   }
 
   .logo {
@@ -482,9 +482,18 @@
   .texto p {
     font-size: 12px !important;
   }
-    .texto h2{
-      font-size: 20px !important;
-    }
+
+  .texto h2 {
+    font-size: 20px !important;
+  }
+
+  #termos .texto li {
+    margin-left: 30px !important;
+    font-size: 13px;
+
+  }
+
+
 }
 
 /* </br> */
@@ -724,22 +733,33 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-     .texto {
-       width: 280px !important;
-  
-     }
-  
-     .texto ul {
-       width: 200px !important;
-       margin-left: 30px !important;
-       font-size: 12px;
-     }
-  
-     .texto p {
-       font-size: 12px !important;
-     }
-  
-     .texto h2 {
-       font-size: 20px !important;
-     }
+
+  .texto {
+    width: 280px !important;
+
+  }
+
+  .texto ul {
+    width: 200px !important;
+    margin-left: 30px !important;
+    font-size: 12px;
+  }
+
+  .texto p {
+    font-size: 12px !important;
+  }
+
+  .texto h2 {
+    font-size: 20px !important;
+  }
+
+  #termos .texto li {
+    margin-left: 20px !important;
+    font-size: 12px;
+
+  }
+
+  #termos .texto h3 {
+    font-size: 20px !important;
+  }
 }
