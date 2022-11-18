@@ -1,0 +1,680 @@
+/* </br> */
+@media(min-width: 1025px) and (max-width: 1201px) {
+  .container {
+    width: 900px !important;
+  }
+
+  .home-title {
+    align-items: center;
+  }
+
+  .home-title h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .home-title h6 {
+    font-size: 23px;
+  }
+
+  .seta img {
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .title h2::after {
+    margin-left: 30px;
+    width: 100px;
+  }
+
+  h3 {
+    font-size: 35px !important;
+  }
+
+  .cont-missao h4 {
+    font-size: 20px;
+  }
+
+  .cont-missao p {
+    font-size: 20px;
+  }
+
+  .img-missão img {
+    width: 350px;
+    height: 350px;
+  }
+
+
+  .org-pilares {
+    flex-wrap: wrap;
+    gap: 20px 20px 60px 20px;
+    justify-content: space-around;
+  }
+
+  .pilares {
+    width: 300px;
+
+  }
+
+  .service-box--txt p {
+    width: 230px;
+  }
+
+  .service-box--txt h2 {
+    font-size: 20px !important;
+  }
+
+  .section-equipe-body {
+    padding: 0;
+  }
+
+  .card {
+    width: 350px;
+    margin-top: 0;
+  }
+
+  .image-equipe {
+    width: 100px !important;
+    height: 100px;
+    margin-top: 50px !important;
+  }
+
+  .info-equipe--info h3 {
+    font-size: 20px !important;
+  }
+
+  .info-equipe--info h6 {
+    font-size: 15px !important;
+  }
+
+  .info-equipe--social {
+    width: 90px;
+  }
+
+  .info-equipe--social img {
+    width: 30px;
+  }
+
+  .section-sobre-nos-txt h2 {
+    font-size: 60px !important;
+  }
+
+  .section-sobre-nos-txt p {
+    font-size: 25px;
+  }
+}
+/* </br> */
+@media(min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 700px !important;
+  }
+
+  .home-title {
+    align-items: center;
+  }
+
+  .home-title h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .home-title h6 {
+    font-size: 23px;
+  }
+
+  .seta img {
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .title h2::after {
+    margin-left: 30px;
+    width: 100px;
+  }
+
+  h3 {
+    font-size: 35px !important;
+  }
+
+  .cont-missao h4 {
+    font-size: 20px;
+  }
+
+  .cont-missao p {
+    font-size: 20px;
+  }
+
+  .img-missão img {
+    width: 350px;
+    height: 350px;
+  }
+
+
+  .org-pilares {
+    flex-wrap: wrap;
+    gap: 20px 20px 60px 20px;
+    justify-content: space-around;
+  }
+
+  .pilares {
+    width: 300px;
+
+  }
+
+  .service-box--txt p {
+    width: 175px;
+  }
+
+  .service-box--txt h2 {
+    font-size: 20px !important;
+  }
+
+  .section-equipe-body {
+    padding: 0;
+  }
+
+  .card {
+    width: 350px;
+    margin-top: 0;
+  }
+
+  .image-equipe {
+    width: 100px !important;
+    height: 100px;
+    margin-top: 50px !important;
+  }
+
+  .info-equipe--info h3 {
+    font-size: 20px !important;
+  }
+
+  .info-equipe--info h6 {
+    font-size: 15px !important;
+  }
+
+  .info-equipe--social {
+    width: 90px;
+  }
+
+  .info-equipe--social img {
+    width: 30px;
+  }
+
+  .section-sobre-nos-txt h2 {
+    font-size: 60px !important;
+  }
+
+  .section-sobre-nos-txt p {
+    font-size: 15px;
+  }
+
+  .section-sobre-nos-img img {
+    width: 400px;
+  }
+
+  .section-contato--title {
+    font-size: 35px;
+  }
+
+  button {
+    width: 280px;
+  }
+
+  .slider {
+    overflow: hidden !important;
+  }
+
+  .section--cliente-body {
+    width: 600px;
+    overflow: hidden !important
+  }
+
+  .cliente--inf-body {
+    width: 600px
+  }
+
+  .cliente-body--slide {
+    width: 1200px;
+  }
+
+  .cliente-txt p {
+    width: 500px;
+  }
+
+  .slider--controls {
+    width: 600px !important;
+  }
+}
+/* </br> */
+@media(min-width: 481px) and (max-width: 768px) {
+ 
+  nav{
+    display: none;
+  }
+    .logo img{
+width: 60px;
+    }
+  .logo {
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+
+   
+  }
+  .social{
+    display: none;
+  }
+  .container {
+    width: 380px !important;
+  }
+
+  .home-title {
+    align-items: center;
+  }
+
+  .home-title h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .home-title h6 {
+    font-size: 23px;
+  }
+
+  .seta img {
+    width: 60px;
+  }
+
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .title h2::after {
+    margin-left: 30px;
+    width: 100px;
+  }
+
+  h3 {
+    font-size: 35px !important;
+  }
+
+    .section-missao-box{
+      flex-direction: column;
+      text-align: center;
+    }
+  .cont-missao h4 {
+    font-size: 20px;
+  }
+
+  .cont-missao p {
+    font-size: 13px;
+    width: 380px !important;
+  }
+
+  .img-missão img {
+    width: 350px;
+    height: 350px;
+  }
+
+
+  .org-pilares {
+    flex-wrap: wrap;
+    gap: 20px 20px 60px 20px;
+    justify-content: space-around;
+  }
+
+  .pilares {
+    width: 300px;
+
+  }
+
+  .service-box--txt p {
+    width: 175px;
+  }
+
+  .service-box--txt h2 {
+    font-size: 20px !important;
+  }
+
+  .section-equipe-body {
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  .card {
+    width: 350px;
+    margin-top: 0;
+  }
+
+  .image-equipe {
+    width: 100px !important;
+    height: 100px;
+    margin-top: 50px !important;
+  }
+
+  .info-equipe--info h3 {
+    font-size: 20px !important;
+  }
+
+  .info-equipe--info h6 {
+    font-size: 15px !important;
+  }
+
+  .info-equipe--social {
+    width: 90px;
+  }
+
+  .info-equipe--social img {
+    width: 30px;
+  }
+
+  .section-sobre-nos-txt h2 {
+    font-size: 60px !important;
+  }
+
+  .section-sobre-nos-txt p {
+    font-size: 15px;
+  }
+
+  .section-sobre-nos-img img {
+    width: 300px;
+  }
+    .section-sobre-nos-body{
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+  .section-contato--title {
+    font-size: 23px;
+  }
+
+  button {
+    width: 200px;
+    padding: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+
+  .slider {
+    overflow: hidden !important;
+  }
+
+  .section--cliente-body {
+    width: 380px;
+    overflow: hidden !important
+  }
+
+  .cliente--inf-body {
+    width: 380px
+  }
+
+  .cliente-body--slide {
+    width: 760px;
+  }
+
+  .cliente-txt p {
+    width: 500px;
+  }
+
+  .slider--controls {
+    width: 380px !important;
+  }
+    .slider--control img{
+      width: 30px;
+      margin: 5px !important;
+    }
+    .cliente-txt p{
+    font-size: 15px;
+    width: 300px;
+    }
+    .section-servico-body{
+      flex-wrap: wrap;
+      gap: 100px;
+    }
+        .service-box {
+          flex: 1;
+        }
+        
+        footer{
+          font-size: 12px;
+        }
+}
+/* </br> */
+@media(min-width: 320px) and (max-width: 480px) {
+
+  nav {
+    display: none;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+
+
+  }
+
+  .social {
+    display: none;
+  }
+
+  .container {
+    width: 250px !important;
+  }
+
+  .home-title {
+    align-items: center;
+  }
+
+  .home-title h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .home-title h6 {
+    font-size: 10px;
+  }
+
+  .seta img {
+    width: 30px;
+  }
+
+  h2 {
+    font-size: 35px !important;
+  }
+
+  .title h2::after {
+    margin-left: 30px;
+    width: 100px;
+  }
+
+  h3 {
+    font-size: 35px !important;
+  }
+
+  .section-missao-box {
+    flex-direction: column;
+    text-align: center;
+  }
+ .cont-missao h3{
+  font-size: 20px !important;
+ }
+  .cont-missao h4 {
+    font-size: 15px;
+  }
+
+  .cont-missao p {
+    font-size: 10px;
+    width: 250px !important;
+  }
+
+  .img-missão img {
+    width: 250px;
+    height: 300px;
+  }
+
+
+  .org-pilares {
+    flex-wrap: wrap;
+    gap: 20px 20px 60px 20px;
+    justify-content: space-around;
+  }
+
+  .pilares {
+    width: 250px;
+
+  }
+
+  .service-box--txt p {
+    width: 175px;
+  }
+
+  .service-box--txt h2 {
+    font-size: 20px !important;
+  }
+
+  .section-equipe-body {
+    padding: 0 !important;
+    padding-left: 30px;
+  }
+
+  .card {
+    width: 250px;
+    margin-top: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .image-equipe {
+    width: 80px !important;
+    height: 80px;
+    margin-top: 50px !important;
+    
+  }
+
+  .info-equipe {
+    padding: 0 !important;
+  }
+  .info-equipe--info h3 {
+    font-size: 20px !important;
+  }
+
+  .info-equipe--info h6 {
+    font-size: 15px !important;
+  }
+
+  .info-equipe--social {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    background-color: transparent;
+  }
+
+  .info-equipe--social img {
+    width: 30px;
+    background-color: var(--color--blue);
+  
+  }
+     .info-equipe--social img:first-child{
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+     }
+            .info-equipe--social img:last-child {
+              border-bottom-right-radius: 5px;
+              border-top-right-radius: 5px;
+            }
+
+  .section-sobre-nos-txt h2 {
+    font-size: 40px !important;
+  }
+
+  .section-sobre-nos-txt p {
+    font-size: 15px;
+  }
+
+  .section-sobre-nos-img img {
+    width: 250px;
+  }
+
+  .section-sobre-nos-body {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .section-contato--title {
+    font-size: 14px;
+  }
+
+  button {
+    width: 110px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  .slider {
+    overflow: hidden !important;
+  }
+
+  .section--cliente-body {
+    width: 250px;
+    overflow: hidden !important
+  }
+
+  .cliente--inf-body {
+    width: 250px
+  }
+
+  .cliente-body--slide {
+    width: 500px;
+  }
+
+  .cliente-txt p {
+    width:230px !important;
+    font-size: 12px !important;
+  }
+
+  .slider--controls {
+    width: 250px !important;
+    display: none;
+  }
+
+  .slider--control img {
+    width: 30px;
+    margin: 5px !important;
+  }
+ .cliente-txt h1{
+  font-size: 15px !important;
+ }
+  .cliente-txt p {
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .section-servico-body {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .service-box {
+    flex: 1;
+  }
+
+  footer {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

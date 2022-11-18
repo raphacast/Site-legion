@@ -39,12 +39,13 @@ header {
   margin-left: 10px;
   padding: 10px 0px 10px 0px;
   cursor: pointer;
+  border-bottom: 3px solid transparent;
 
 }
 
 .menu a:hover,
 .active {
-  border-bottom: 3px dashed var(--color--white);
+  border-bottom: 3px solid var(--color--white) !important;
 }
 
 
@@ -85,13 +86,12 @@ header {
 
 .home-title h1 {
   font-size: 120px;
-  padding-bottom: 15px;
   color: var(--color-black);
-  font-family: Righteous;
+  font-family: sarala;
 }
 
 .home-title h6 {
-  font-size: 25px;
+  font-size: 37px;
   font-family: Righteous;
   color: var(--color--blue);
   padding: 5px 0 5px 0;
