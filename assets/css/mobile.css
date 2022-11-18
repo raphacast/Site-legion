@@ -398,7 +398,9 @@ color: white;
 
 /* </br> */
 @media(min-width: 481px) and (max-width: 768px) {
-
+#menu-mobile {
+display: flex;
+}
   nav {
     display: none;
   }
@@ -631,7 +633,9 @@ color: white;
 
 /* </br> */
 @media(min-width: 320px) and (max-width: 480px) {
-
+#menu-mobile {
+    display: flex;
+  }
   nav {
     display: none;
   }
