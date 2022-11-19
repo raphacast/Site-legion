@@ -109,8 +109,11 @@ header {
 } */
 .seta{
   padding-top: 100px;
+  
 }
 .seta img{
   width: 90px;
   height: 90px;
+  animation: seta 0.8s infinite ease-in-out;
+  position: absolute;
 }

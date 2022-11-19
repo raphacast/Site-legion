@@ -25,3 +25,9 @@
 }
 
 /* Animação Scroll FIM */
+/* Animação da seta  */
+@keyframes seta {
+0%{margin-top: 0;}
+50%{margin-top: 20px;}
+0%{margin-top: 0;}
+}
