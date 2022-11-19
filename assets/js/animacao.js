@@ -71,46 +71,46 @@ if (target.length) {
 // }
 
 
-var homeMob = document.querySelector('.icon01')
-homeMob.addEventListener('click',homeMobile)
-function homeMobile() {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
+// var homeMob = document.querySelector('.icon01')
+// homeMob.addEventListener('click',homeMobile)
+// function homeMobile() {
+//   window.scrollTo({
+//     top: 0,
+//     left: 0,
+//     behavior: 'smooth'
+//   });
 
-}
-var servicoMob = document.querySelector('.icon02')
-servicoMob.addEventListener('click',servicomobile)
-function servicomobile() {
-  window.scrollTo({
-    top: 3075,
-    left: 0,
-    behavior: 'smooth'
-  });
+// }
+// var servicoMob = document.querySelector('.icon02')
+// servicoMob.addEventListener('click',servicomobile)
+// function servicomobile() {
+//   window.scrollTo({
+//     top: 3075,
+//     left: 0,
+//     behavior: 'smooth'
+//   });
 
-}
-var sobreMob = document.querySelector('.icon03')
-sobreMob.addEventListener('click',sobremobile)
-function sobremobile() {
-  window.scrollTo({
-    top: 6252,
-    left: 0,
-    behavior: 'smooth'
-  });
+// }
+// var sobreMob = document.querySelector('.icon03')
+// sobreMob.addEventListener('click',sobremobile)
+// function sobremobile() {
+//   window.scrollTo({
+//     top: 6252,
+//     left: 0,
+//     behavior: 'smooth'
+//   });
 
-}
-var contatoMob = document.querySelector('.icon04')
-contatoMob.addEventListener('click',contatomobile)
-function contatomobile() {
-  window.scrollTo({
-    top: 6661,
-    left: 0,
-    behavior: 'smooth'
-  });
+// }
+// var contatoMob = document.querySelector('.icon04')
+// contatoMob.addEventListener('click',contatomobile)
+// function contatomobile() {
+//   window.scrollTo({
+//     top: 6661,
+//     left: 0,
+//     behavior: 'smooth'
+//   });
 
-}
+// }
 
 
 
