@@ -33,5 +33,11 @@ button{
   font-weight: bold;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+button:hover{
+    background-color: #8da9f7;
+      color: var(--color--white);
 }
 

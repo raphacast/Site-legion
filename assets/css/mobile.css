@@ -405,6 +405,9 @@ color: white;
 
 /* </br> */
 @media(min-width: 481px) and (max-width: 768px) {
+  .page-top{
+    display: none;
+  }
 #menu-mobile {
 display: flex;
 }
@@ -648,6 +651,9 @@ display: flex;
 
 /* </br> */
 @media(min-width: 320px) and (max-width: 480px) {
+    .page-top {
+        display: none;
+      }
 #menu-mobile {
     display: flex;
   }

@@ -11,10 +11,14 @@
 @import url(/assets/css/contato.css);
 @import url(/assets/css/footer.css);
 @import url(/assets/css/mobile.css);
-
-
 @import url(/assets/css/animacao.css);
 @import url(/assets/css/politicaEtermos.css);
+
+:root {
+  --color--blue: #215BFF;
+  --color-black: #161616;
+  --color--white: #FAFAFA;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,14 +34,7 @@ p {
 }
 
 body {
-  margin: auto;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  overflow: auto;
   background: var(--color--white);
-  animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;
-
 }
 
 h2 {
@@ -68,4 +65,25 @@ align-items: center;
 }
 .blue{
   color: var(--color--blue);
+}
+
+.page-top{
+  background-image: url(/assets/image/home/seta-top.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  margin: 0px 20px 20px 0px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all .5s ease;
+
+}
+.page-top:hover {
+  transform:scale(1.2);
+  transition: all .3s ease;
 }

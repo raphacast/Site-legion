@@ -1,8 +1,4 @@
-:root {
-  --color--blue: #215BFF;
-  --color-black: #161616;
-  --color--white: #FAFAFA;
-}
+
 header {
   
   background-color: var(--color--blue);
