@@ -87,3 +87,23 @@ align-items: center;
   transform:scale(1.2);
   transition: all .3s ease;
 }
+
+
+/* Scroll do site personalização  */
+::-webkit-scrollbar { /* personalizar a barra em geral, aqui estou definindo 30px de largura para a barra vertical
+e 30px de altura para a barra horizontal */
+  width: 30px;
+  height: 30px;
+}
+
+
+::-webkit-scrollbar-track { /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza claro*/
+  background: #eee;
+  border-left: 1px solid #215cff1e;
+}
+
+
+::-webkit-scrollbar-thumb {
+  
+  background: var(--color--blue);
+}

@@ -1,6 +1,5 @@
-
 header {
-  
+
   background-color: var(--color--blue);
   height: 100px;
   display: flex;
@@ -53,25 +52,26 @@ header {
   width: 200px;
 
 }
-#home .container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      
+
+#home .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
+
 #home {
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 100px);
   flex-direction: column;
-  
+
 }
 
 
 .home-title {
-  padding-top: 60px;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -94,6 +94,7 @@ header {
   letter-spacing: 2.3px;
   line-height: 20px;
 }
+
 /* .home-title h6::after{
   content: "";
   display: block;
@@ -103,14 +104,20 @@ header {
   width: 112px;
   height: 112px;
 } */
-.seta{
-  padding-top: 100px;
-  
-}
-.seta img{
-  width: 90px;
-  height: 90px;
-  animation: seta 0.8s infinite ease-in-out;
+.seta {
+
   position: absolute;
+  margin: auto;
+  bottom: 2em;
+  height: 100px;
+  animation: seta 0.8s infinite ease-in-out;
+}
+
+.seta img {
+  width: 60px;
+  height: 60px;
+  animation: seta 0.8s infinite ease-in-out;
+
   cursor: pointer;
+
 }
